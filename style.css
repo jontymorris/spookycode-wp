@@ -34,6 +34,34 @@ header .logo {
 	max-width: 250px;
 }
 
+.home-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: hsl(0, 0%, 0%);
+	height: 100vh;
+	padding: 0px 20px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.home-header img {
+	width: 100%;
+	max-width: 1000px;
+}
+
+.home-header span {
+	color: #ffffff;
+	font-size: 50px;
+	margin-top: 30px;
+	text-shadow: 5px 5px #000000;
+	font-weight: bold;
+	line-height: 40px;
+}
+
 header .motto {
 	float: right;
 	color: #ffffff;
@@ -66,6 +94,10 @@ footer {
 		max-width: 100%;
 		font-size: 0.9em;
 		margin-top: 10px;
+	}
+
+	.home-header span {
+		font-size: 30px;
 	}
 
 	.content {
